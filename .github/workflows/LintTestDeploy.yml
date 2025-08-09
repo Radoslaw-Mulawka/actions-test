@@ -5,10 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: actions/checkout-latest
+        uses: actions/checkout
 
       - name: Setup Node
-        uses: actions/setup-node-latest
+        uses: actions/setup-node
         with:
             node-version: 18
         
