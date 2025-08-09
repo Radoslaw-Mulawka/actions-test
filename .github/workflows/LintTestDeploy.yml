@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu@latest
     steps:
       - name: Get code
-        uses: actions/checkout@v4
+        run: echo "Hello world!"
     #   - name: Install deps
     #     run: npm install
 #   Test:
