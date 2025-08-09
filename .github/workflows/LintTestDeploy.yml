@@ -6,8 +6,8 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v4
-      - name: Install deps
-        run: npm install
+    #   - name: Install deps
+    #     run: npm install
 #   Test:
 #     needs: Lint
 #     runs-on: ubuntu@latest
