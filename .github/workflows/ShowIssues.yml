@@ -2,7 +2,7 @@ name: Show Issues
 on: [issues, workflow_dispatch]
 jobs:
     ShowIssues:
-        runs-on: ubuntu@latest
+        runs-on: ubuntu-latest
         steps:
             - name: Echo issues
               run: echo ${{github.event}}
