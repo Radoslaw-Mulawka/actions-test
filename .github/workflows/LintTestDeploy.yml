@@ -6,15 +6,8 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@latest
-
-      - name: Setup Node
-        uses: actions/setup-node@latest
-        with:
-            node-version: 18
-        
       - name: Install deps
         run: npm ci
-
       - name: Run Linter
         run: npm run lint
   Test:
